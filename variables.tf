@@ -10,8 +10,9 @@ variable "instance_type" {
 
 variable "ami_id" {
   description = "AMI ID for the instance"
-  default     = "ami-0c55b159cbfafe1f0" # Update if needed
+  default     = "ami-0f88e80871fd81e91" # Update if needed
 }
+
 
 variable "key_name" {
   description = "Name of the AWS key pair"
